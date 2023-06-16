@@ -7,18 +7,21 @@ public class Calculator {
             float b = Float.parseFloat(args[2]);
             String operator = args[1];
             float result=0;
-
-            if (operator.equals("+")){
-               result=a+b;
-            }
-            if (operator.equals("-")){
-                result=a-b;
-            }
-            if (operator.equals("*")){
-                result=a*b;
-            }
-            if (operator.equals("/")){
-                result=a/b;
+            switch (operator){
+                case "+":
+                    result=a+b;
+                    break;
+                case "-":
+                    result=a-b;
+                    break;
+                case "*":
+                    result=a*b;
+                    break;
+                case"/":
+                    result=a/b;
+                    break;
+                default:
+                    result=0;
             }
            System.out.println("Result is: " + result);
         } else {
