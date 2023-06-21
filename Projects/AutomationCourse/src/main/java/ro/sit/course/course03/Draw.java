@@ -14,6 +14,7 @@ public class Draw {
         System.out.println("--------");
         System.out.println();
         drawShapeOutline(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+        drawShapeCorners(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
     }
 
     // method 1 for drawShapeOutline
@@ -96,5 +97,20 @@ public class Draw {
 
     private static void printEntireLine() {
         System.out.print("**********");
+    }
+
+    private static void drawShapeCorners(int width, int height){
+        printShapeName("Corners: ");
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < height; j++) {
+                if ((i == 0 || i == (width - 1)) && (j == 0 || j == (height - 1))) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+
+        }
     }
 }
