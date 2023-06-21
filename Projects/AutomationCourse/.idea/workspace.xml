@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="Implement an arithmetic calculator using switch statement">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Shapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/Course01.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2RFqrk9h6lbZPVoEM9mR9z0bJ5a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.NumberPrime">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calculator" />
+      <module name="AutomationCourse" />
+      <option name="PROGRAM_PARAMETERS" value="9 * 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calendar" />
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.NumberPrime" />
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Sum" />
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumNatural" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.SumNatural" />
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Calendar" />
+      <item itemvalue="Application.Calculator" />
+      <item itemvalue="Application.NumberPrime" />
+      <item itemvalue="Application.Sum" />
+      <item itemvalue="Application.SumNatural" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NumberPrime" />
+        <item itemvalue="Application.Calendar" />
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.SumNatural" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="" />
+      <created>1686856391102</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686856391102</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Determine prime numbers between 1 and 1000000">
+      <created>1686945407279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686945407280</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implement an arithmetic calculator">
+      <created>1686947282401</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686947282401</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implement an arithmetic calculator using switch statement">
+      <created>1686949134586</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686949134586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Determine prime numbers between 1 and 1000000" />
+    <MESSAGE value="Implement an arithmetic calculator" />
+    <MESSAGE value="Implement an arithmetic calculator using switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement an arithmetic calculator using switch statement" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ro/sit/homework/Homework02</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
