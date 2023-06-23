@@ -5,16 +5,18 @@ public class Draw {
     public static void main(String[] args) {
         if (args.length == 1) {
             drawFullShape(Integer.parseInt(args[0]));
+            drawShapeOutline(Integer.parseInt(args[0]));
+            drawShapeCorners(Integer.parseInt(args[0]));
         } else if (args.length == 2) {
             drawFullShape(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+            drawShapeOutline(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+            drawShapeCorners(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
         } else {
             System.out.println("Please add 1 or 2 arguments only");
         }
         System.out.println();
         System.out.println("--------");
         System.out.println();
-        drawShapeOutline(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
-        drawShapeCorners(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
     }
 
     // method 1 for drawShapeOutline
@@ -45,6 +47,11 @@ public class Draw {
             }
             System.out.println();
         }
+    }
+
+    private static void drawShapeOutline(int width) {
+        printShapeName("Empty square");
+        drawShapeOutline(width, width);
     }
 
     private static void drawFullShape(int squareSide) {
@@ -100,7 +107,7 @@ public class Draw {
     }
 
     private static void drawShapeCorners(int width, int height){
-        printShapeName("Corners: ");
+        printShapeName("Corners for rectangle: ");
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < height; j++) {
                 if ((i == 0 || i == (width - 1)) && (j == 0 || j == (height - 1))) {
@@ -112,5 +119,9 @@ public class Draw {
             System.out.println();
 
         }
+    }
+    private static void drawShapeCorners(int width){
+        printShapeName("Corners for square: ");
+        drawShapeCorners(width, width);
     }
 }
