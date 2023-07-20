@@ -21,10 +21,14 @@ public class Catalog {
         student3.setName("Ion Popescu");
         student3.setAverage(7.5);
 
+        Student student4 = new Student();
+        student4.setName("Adela Staicu");
+        student4.setAverage(9.3);
+
         addStudent(student1, students);
         addStudent(student2, students);
         addStudent(student3, students);
-        addStudent(student3, students);
+        addStudent(student4, students);
 
         displayStudents(students);
         searchStudent(students);
