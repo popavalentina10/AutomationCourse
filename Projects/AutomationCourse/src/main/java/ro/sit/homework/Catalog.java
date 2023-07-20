@@ -21,9 +21,10 @@ public class Catalog {
         student3.setName("Ion Popescu");
         student3.setAverage(7.5);
 
-        students.add(student1);
-        students.add(student2);
-        students.add(student3);
+        addStudent(student1, students);
+        addStudent(student2, students);
+        addStudent(student3, students);
+        addStudent(student3, students);
 
         displayStudents(students);
         searchStudent(students);
@@ -33,6 +34,17 @@ public class Catalog {
         displayStudents(students);
         sortStudentsByAverage(students);
         displayStudents(students);
+    }
+
+    public static void addStudent(Student student, List<Student> students)
+    {
+        for (Student stud : students) {
+            if (stud.getName().equals(student.getName())) {
+                return;
+            }
+        }
+
+        students.add(student);
     }
 
     public static void displayStudents(List<Student> students) {
