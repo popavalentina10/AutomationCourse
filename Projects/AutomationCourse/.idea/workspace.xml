@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="adds course 8">
+    <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="fixes package name errors and imports">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/test/Calculator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Course05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Course05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Dacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Dacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/NewCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/NewCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/ExceptionsChecked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/ExceptionsChecked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/MyCustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/MyCustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestACustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestACustomException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/MyFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,19 +87,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ro.sit.homework.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calculator" />
-      <module name="AutomationCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sit.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationCourse" />
       <extension name="coverage">
@@ -145,21 +118,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.testInvalidOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculatorTest" />
+      <option name="METHOD_NAME" value="testInvalidOperator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Draw" />
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.ro.sit.homework.Calculator" />
       <item itemvalue="Application.Calendar" />
       <item itemvalue="JUnit.CalculatorTest" />
       <item itemvalue="JUnit.CalculatorTest.testAddition" />
+      <item itemvalue="JUnit.CalculatorTest.testInvalidOperator" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.testInvalidOperator" />
         <item itemvalue="JUnit.CalculatorTest.testAddition" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Calendar" />
-        <item itemvalue="Application.ro.sit.homework.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690997027760</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fixes package name errors and imports">
+      <created>1691099295826</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691099295826</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -296,7 +292,8 @@
     <MESSAGE value="adds course 5" />
     <MESSAGE value="adds courses 6 &amp; 7" />
     <MESSAGE value="adds course 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds course 8" />
+    <MESSAGE value="fixes package name errors and imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes package name errors and imports" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
