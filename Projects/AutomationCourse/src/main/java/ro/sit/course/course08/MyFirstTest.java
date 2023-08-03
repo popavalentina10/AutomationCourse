@@ -1,4 +1,4 @@
-package course.course08;
+package ro.sit.course.course08;
 
 import org.junit.Assert;
 import org.junit.Test;

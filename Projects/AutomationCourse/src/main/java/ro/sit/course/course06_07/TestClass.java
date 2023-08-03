@@ -1,4 +1,4 @@
-package course.course06_07;
+package ro.sit.course.course06_07;
 
 import org.junit.*;
 

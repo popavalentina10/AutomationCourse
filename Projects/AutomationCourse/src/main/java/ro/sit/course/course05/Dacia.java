@@ -1,4 +1,4 @@
-package course.course05;
+package ro.sit.course.course05;
 
 public class Dacia extends NewCar{
     @Override

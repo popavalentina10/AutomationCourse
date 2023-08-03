@@ -1,6 +1,6 @@
-package course.course05;
+package ro.sit.course.course05;
 
-import course.course03_04.Person;
+import ro.sit.course.course03_04.Person;
 
 import java.util.*;
 import java.util.jar.JarEntry;

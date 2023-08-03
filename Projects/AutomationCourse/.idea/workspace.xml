@@ -4,21 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="Draw corners and outline for square as well">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/StudentAverageComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/StudentNameComparator.java" afterDir="false" />
+    <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="adds course 8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Draw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Draw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Shapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course03_04/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Browsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Course05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Course05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Dacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Dacia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/NewCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/NewCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course05/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/ExceptionsChecked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/ExceptionsChecked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/MyCustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/MyCustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestACustomException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestACustomException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/MyFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/MyFirstTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2RFqrk9h6lbZPVoEM9mR9z0bJ5a" />
   <component name="ProjectLevelVcsManager">
@@ -55,14 +59,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Catalog">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.test.Calculator" />
       <module name="AutomationCourse" />
-      <option name="PROGRAM_PARAMETERS" value="9 * 2" />
+      <option name="PROGRAM_PARAMETERS" value="5 - 3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="PATTERN" value="ro.sit.homework.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,19 +76,6 @@
     </configuration>
     <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calendar" />
-      <module name="AutomationCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sit.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Catalog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Catalog" />
       <module name="AutomationCourse" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Library" />
+    <configuration name="ro.sit.homework.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calculator" />
       <module name="AutomationCourse" />
       <extension name="coverage">
         <pattern>
@@ -123,34 +114,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.NumberPrime" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomationCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ro.sit.homework.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.CalculatorTest" />
+      <option name="METHOD_NAME" value="testAddition" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Draw" />
-      <item itemvalue="Application.Catalog" />
-      <item itemvalue="Application.Library" />
-      <item itemvalue="Application.Calendar" />
       <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.NumberPrime" />
+      <item itemvalue="Application.ro.sit.homework.Calculator" />
+      <item itemvalue="Application.Calendar" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.testAddition" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Catalog" />
-        <item itemvalue="Application.Library" />
-        <item itemvalue="Application.NumberPrime" />
-        <item itemvalue="Application.Calendar" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.testAddition" />
         <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Calendar" />
+        <item itemvalue="Application.ro.sit.homework.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +228,56 @@
       <option name="project" value="LOCAL" />
       <updated>1687557239019</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Changed the folder structure">
+      <created>1689875435779</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689875435781</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Defines Catalog class and Student class">
+      <created>1689875477531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689875477531</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updates Student class to ensure the same student cannot be added multiple times">
+      <created>1689876826969</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689876826969</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adds an additional student to the Catalog">
+      <created>1689877686542</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877686542</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adds course 5">
+      <created>1690996941872</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690996941872</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adds courses 6 &amp; 7">
+      <created>1690996991925</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690996991925</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adds course 8">
+      <created>1690997027760</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1690997027760</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +289,14 @@
     <MESSAGE value="Create gitignore file" />
     <MESSAGE value="Fix project structure" />
     <MESSAGE value="Draw corners and outline for square as well" />
-    <option name="LAST_COMMIT_MESSAGE" value="Draw corners and outline for square as well" />
+    <MESSAGE value="Changed the folder structure" />
+    <MESSAGE value="Defines Catalog class and Student class" />
+    <MESSAGE value="Updates Student class to ensure the same student cannot be added multiple times" />
+    <MESSAGE value="Adds an additional student to the Catalog" />
+    <MESSAGE value="adds course 5" />
+    <MESSAGE value="adds courses 6 &amp; 7" />
+    <MESSAGE value="adds course 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="adds course 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +306,10 @@
           <line>16</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
