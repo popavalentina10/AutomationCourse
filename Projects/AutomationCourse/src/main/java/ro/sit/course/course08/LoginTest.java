@@ -32,8 +32,7 @@ public class LoginTest {
 
     @BeforeMethod
     public void setup() {
-        System.setProperty("webdriver.chrome.driver",
-                "C:\\Radu\\scoala_informala_IT\\automation\\src\\test\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
         chromeDriver = new ChromeDriver();
         chromeDriver.manage().window().maximize();
         chromeDriver.get("http://86.121.249.151:4999/");
