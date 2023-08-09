@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249644f9-e253-40dc-921b-db039eb140ac" name="Changes" comment="fixes package name errors and imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/homework/test/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/utils/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/utils/ConfigUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/utils/ConstantUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course06_07/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ro/sit/course/course08/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,38 +48,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/Projects/AutomationCourse&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.test.Calculator" />
-      <module name="AutomationCourse" />
-      <option name="PROGRAM_PARAMETERS" value="5 - 3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sit.homework.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Calendar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ro.sit.homework.Calendar" />
-      <module name="AutomationCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ro.sit.homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RegisterTest">
     <configuration name="Draw" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ro.sit.course.course03_04.Draw" />
       <module name="AutomationCourse" />
@@ -102,23 +86,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationCourse" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="ro.sit.course.course08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculatorTest" />
-      <option name="METHOD_NAME" value="testAddition" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ro.sit.course.course08" />
+      <option name="MAIN_CLASS_NAME" value="ro.sit.course.course08.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testInvalidOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationCourse" />
       <extension name="coverage">
         <pattern>
@@ -127,28 +112,64 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.CalculatorTest" />
-      <option name="METHOD_NAME" value="testInvalidOperator" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RegisterTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterTest.testMissingUsername" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RegisterTest" />
+      <option name="METHOD_NAME" value="testMissingUsername" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.RegistrationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Draw" />
-      <item itemvalue="Application.Calculator" />
-      <item itemvalue="Application.Calendar" />
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.testAddition" />
-      <item itemvalue="JUnit.CalculatorTest.testInvalidOperator" />
+      <item itemvalue="TestNG.RegistrationTest" />
+      <item itemvalue="TestNG.RegisterTest" />
+      <item itemvalue="TestNG.RegisterTest.testMissingUsername" />
+      <item itemvalue="TestNG.LoginTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegisterTest" />
+        <item itemvalue="TestNG.RegisterTest.testMissingUsername" />
+        <item itemvalue="TestNG.RegistrationTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.testInvalidOperator" />
-        <item itemvalue="JUnit.CalculatorTest.testAddition" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Calendar" />
       </list>
     </recent_temporary>
   </component>
